@@ -8,7 +8,7 @@ So using this tool, you can do
 
 This will take server1 completely out of rotation in the NodeBalancer, on all ports it is listening on.  To bring it back online, use
 
-    loadbalancer server2 accept
+    loadbalancer server1 accept
 
 Which will bring it back.
 

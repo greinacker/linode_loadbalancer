@@ -13,3 +13,9 @@ This will take server1 completely out of rotation in the NodeBalancer, on all po
 Which will bring it back.
 
 In both cases, it will loop waiting for the change to actually propogate; when it has completed, and your changes have taken effect, the tool exits.
+
+Uses the most excellent [Linode gem](https://github.com/rick/linode); you'll need to install that gem first using
+
+    gem install linode
+
+Then add your Linode API key to the file, make it executable in your file system, remove the .rb extension if you want, and you're good to go.
